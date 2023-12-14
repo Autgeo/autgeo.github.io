@@ -330,7 +330,7 @@ body {
                 }
                     .section-title.hero:first-line {
                         color: var(--secondary-accent);
-                      }
+                }
             .content-wrapper_inner {
                 margin: 0 24px;
                 color: var(--secondary-light);
@@ -359,31 +359,29 @@ body {
                         width: 100%;
                         height: 56.25%;
                     }
-                        .e1, 
-                        .e2, 
-                        .e3 {
+                        .e1 {
+                            background: url('../images/about-us-1.jpg') no-repeat;
+                            /* background-position: 50% 50%; */
+                            border-radius: 4px 0 0 4px;
                             background-size: contain;
                         }
-                            .e1 {
-                                background: url('../images/about-us-1.jpg') no-repeat;
-                                background-position: 50% 50%;
-                                border-radius: 4px 0 0 4px;
-                            }
-                            .e2 {
-                                background: url('../images/about-us-2.jpg') no-repeat;
-                                background-position: 55% 70%;
-                                border-left: 4px solid var(--black);
-                                border-right: 4px solid var(--black);
-                            }
-                            .e3 {
-                                background: url('../images/about-us-3.jpg') no-repeat;
-                                background-position: 40% 45%;
-                                border-radius: 0 4px 4px 0;
-                            }
+                        .e2 {
+                            background: url('../images/about-us-2.jpg') no-repeat;
+                            /* background-position: 55% 70%; */
+                            /* border-left: 4px solid var(--black); */
+                            /* border-right: 4px solid var(--black); */
+                            background-size: contain;
+                        }
+                        .e3 {
+                            background: url('../images/about-us-3.jpg') no-repeat;
+                            /* background-position: 40% 45%; */
+                            border-radius: 0 4px 4px 0;
+                            background-size: contain;
+                        }
     
     #about-us {
         background: var(--secondary-dark);
-        background-image: url('../images/about-us_bcg.jpg');
+        background-image: url('../images/about-us_bcg.jpg') no-repeat;
         
     }
 
@@ -520,6 +518,10 @@ body {
 
 @media screen and (max-width: 1224px) {
 
+    .start_btn {
+        display: none;
+    }
+
     /* header */
 
         .menu.desktop {
@@ -556,18 +558,19 @@ body {
                         .e2, 
                         .e3 {
                             background-position: center;
+                            max-height: 56.25%;
                         }
                         .e1 {
-                            border-radius: 4px 4px 0 0;
+                            border-radius: 8px 8px 0 0;
                         }
-                        .e2 {
+                        /* .e2 {
                             border-left: none;
                             border-right: none;
                             border-top: 8px solid var(--black);
                             border-bottom: 8px solid var(--black);
-                        }
+                        } */
                         .e3 {
-                            border-radius: 0 0 4px 4px;
+                            border-radius: 0 0 8px 8px;
                         }
 
 }
