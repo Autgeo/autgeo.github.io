@@ -355,6 +355,13 @@ body {
                     flex: 1;
                     display: flex;
                 }
+			a {
+				text-decoration: none;
+				color: var(--secondary-accent);
+			}
+			a:hover {
+				color: var(--primary-accent);
+			}
                     .img-frame {
                         width: 100%;
                         height: 56.25%;
