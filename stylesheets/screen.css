@@ -404,8 +404,9 @@ body {
                         }
     
     #about-us {
-        background: var(--secondary-dark);
-        background-image: url('../images/about-us_bcg.jpg') no-repeat;
+        /* background-color: var(--secondary-dark); */
+        background: url('../images/about-us_bcg.jpg') no-repeat;
+        background-size: cover;
         
     }
 
