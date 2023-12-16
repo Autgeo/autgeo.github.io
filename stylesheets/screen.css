@@ -755,3 +755,6 @@ body {
 .slider-pro .sp-buttons .sp-button.sp-selected-button {
     background-color: var(--secondary-accent);
 }
+.slider-pro .sp-slide {
+    z-index: 1 !important;
+}
