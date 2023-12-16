@@ -208,13 +208,17 @@ body {
                         }
                 .contact_modal ul {
                     list-style-type: none;
-                    margin-top: 96px;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
+                    margin-top: 32px;
+                    overflow: hidden;
+                    padding: 0 24px;
                 }
                     .contact_modal ul li {
-                        margin-right: 48px;
+                        margin: 24px 24px 0 0;
+                        font-size: 0.875rem;
+                        display: flex;
+                        align-items: center;
+                        max-width: max-content;
+                        float: left;
                     }
                         .contact_modal ul li:last-child {
                             margin-right: 0;
@@ -223,15 +227,23 @@ body {
                             display: block;
                             background: var(--secondary-accent);
                             border-radius: 4px;
-                            padding: 16px;
+                            padding: 8px;
+                            margin-right: 8px;
+                            max-width: max-content;
                         }
+                            .contact_modal ul li:last-child a {
+                                margin-right: 0;
+                            }
                             .contact_modal ul li a:hover {
                                 background: var(--primary-accent);
                             }
                             .contact_modal ul li a svg {
-                                width: 24px;
+                                width: 16px;
                                 fill: var(--white);
                             }
+                .contact_modal p {
+                    padding: 0 24px;
+                }
 
 
 
@@ -303,8 +315,8 @@ body {
                     }
 
         .content-wrapper_outer {
-            max-width: 1224px;
-            padding: 144px 24px 96px 24px;
+            max-width: 1464px;
+            padding: 208px 24px 96px 24px;
             margin: 0 auto;
             display: flex;
             flex-direction: column;
@@ -324,15 +336,20 @@ body {
                     border-left: 0;
                     padding-left: 0;
                     font-size: 4rem;
-                    color: var(--primary-accent);
+                    color: var(--secondary-light);
                     text-align: center;
                     text-transform: uppercase;
+
+                    max-width: 1056px;
+                    margin: 0 auto 88px;
                 }
-                    .section-title.hero:first-line {
+                    .section-title.hero .hl1 {
                         color: var(--secondary-accent);
-                }
+                    }
+                    .section-title.hero .hl2 {
+                        color: var(--primary-accent);
+                    }
             .content-wrapper_inner {
-                margin: 0 24px;
                 color: var(--secondary-light);
                 flex: 1;
                 display: flex;
@@ -400,8 +417,7 @@ body {
 
                     .tabs {
                         margin-left: 96px;
-                        margin-top: -4px;
-                        width: 576px;
+                        width: 456px;
                         position: relative;
                         flex-shrink: 0;
                     }
