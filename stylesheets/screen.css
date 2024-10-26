@@ -228,9 +228,7 @@ body {
                             margin-right: 8px;
                             max-width: max-content;
                         }
-                            .contact_modal ul li:last-child a {
-                                margin-right: 0;
-                            }
+
                             .contact_modal ul li a:hover {
                                 background: var(--primary-accent);
                             }
