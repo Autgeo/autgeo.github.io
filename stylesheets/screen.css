@@ -220,9 +220,6 @@ body {
                         max-width: max-content;
                         float: left;
                     }
-                        .contact_modal ul li:last-child {
-                            margin-right: 0;
-                        }
                         .contact_modal ul li a {
                             display: block;
                             background: var(--secondary-accent);
